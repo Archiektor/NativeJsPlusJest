@@ -1,5 +1,5 @@
-import {student, StudentType, TechologyType} from "../02/02";
-import {CityType, GovernmentBuildingType} from "../02/02_02";
+import {StudentType} from "../02/02";
+import {GovernmentBuildingType} from "../02/02_02";
 
 export const addSkill = (studentObj: StudentType, nameOfTech: string) => {
     studentObj.technologies.push({

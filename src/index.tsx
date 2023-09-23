@@ -3,12 +3,6 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {makeWords} from "./01-hello-test/01";
-import {student} from "./02/02";
-import {student2} from "./03/03";
-
-console.log(student2);
-console.log(student);
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
