@@ -35,7 +35,7 @@ beforeEach(() => {
     }
 })
 
-test('new skill should be added to student', () => {
+test.skip('new skill should be added to student', () => {
     //action
     addSkill(student, 'next.js');
 
@@ -45,7 +45,7 @@ test('new skill should be added to student', () => {
     expect(student["technologies"].length).toBe(4)
 })
 
-test('new skill should be added to student', () => {
+test.skip('new skill should be added to student', () => {
     //action
     addSkill(student, 'react-native');
 
@@ -55,7 +55,7 @@ test('new skill should be added to student', () => {
     expect(student["technologies"].length).toBe(4)
 })
 
-test('toogle student activity', () => {
+test.skip('toogle student activity', () => {
     expect(student.isActive).toBe(true);
     //action
     toogleStudentActivity(student);

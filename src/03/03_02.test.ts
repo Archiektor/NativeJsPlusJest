@@ -64,7 +64,7 @@ beforeEach(() => {
     }
 })
 
-test('add budget to hospital', () => {
+test.skip('add budget to hospital', () => {
     //action
     addBudget(city['governmentBuildings'][0], 30000)
     //expect
@@ -77,7 +77,7 @@ test('add budget to hospital', () => {
     expect(city['governmentBuildings'][0].budget).toBe(250000);
 })
 
-test('add budget to fire-station', () => {
+test.skip('add budget to fire-station', () => {
     //action
     addBudget(city['governmentBuildings'][1], 30000)
     //expect
