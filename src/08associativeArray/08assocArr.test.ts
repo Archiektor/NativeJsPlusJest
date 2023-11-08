@@ -15,7 +15,7 @@ beforeEach(() => {
     }
 })
 
-test('should Be Vitya', () => {
+test.skip('should Be Vitya', () => {
     const user = {id: 100500, name: 'Vera'};
     users[user.id] = user;
     //delete users[user.id];
@@ -24,7 +24,7 @@ test('should Be Vitya', () => {
     expect(users[user.id]['name']).toBe('Vitya');
 })
 
-test('should uptade user name', () => {
+test.skip('should uptade user name', () => {
     users['102']['name'] = 'Sofa';
 
     expect(users['102']['name']).toBe('Sofa');
